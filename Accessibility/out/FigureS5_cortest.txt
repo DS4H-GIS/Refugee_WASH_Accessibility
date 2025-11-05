@@ -1,0 +1,10 @@
+
+	Spearman's rank correlation rho
+
+data:  ACC25_survey_join$acc25_A1mean and ACC25_survey_join$people_per_functional_latrine
+S = 10225, p-value = 3.912e-06
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7087647 
+
