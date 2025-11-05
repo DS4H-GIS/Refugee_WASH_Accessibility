@@ -35,7 +35,7 @@ jobs:
       - name: Install R dependency
         uses: r-lib/actions/setup-renv@v2
         with:
-          working-directory: '"./Accessibility/"'
+          working-directory: '"Accessibility/"'
           cache-version: 2
 
       - name: run main.R
