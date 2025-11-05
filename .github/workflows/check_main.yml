@@ -40,4 +40,3 @@ jobs:
 
       - name: run main.R
         run: Rscript --verbose ./Accessibility/main.R
-env.message_content }}
