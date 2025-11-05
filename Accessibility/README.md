@@ -55,7 +55,7 @@ Accessibility/
     sudo apt-get update
     sudo apt-get install -y gdal-bin libgdal-dev libgeos-dev libproj-dev \
         libudunits2-dev libsqlite3-dev libcurl4-openssl-dev libxml2-dev \
-        make g++ cmake
+        libglpk-dev make g++ cmake
     ```
 
 ## Reproducible environment with `renv`
