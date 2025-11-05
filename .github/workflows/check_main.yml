@@ -4,7 +4,7 @@ on:
     branches: main
     paths:
       - 'Accessibility/**'
-      - '.github/workflows/check_main_R.yml'
+      - '.github/workflows/check_main.yml'
 
 name: Check if Accessibility/main.R is running correctly
 
