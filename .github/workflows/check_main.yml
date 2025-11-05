@@ -38,5 +38,8 @@ jobs:
           working-directory: 'Accessibility/'
           cache-version: 2
 
+      - name: install renv
+        run: R -q -e 'install.packages("renv"); renv::restore(lockfile="./Accessibility/renv.lock", prompt=FALSE)'
+
       - name: run main.R
         run: Rscript --verbose ./Accessibility/main.R
