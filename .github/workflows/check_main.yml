@@ -42,4 +42,4 @@ jobs:
         run: R -q -e 'install.packages("renv"); renv::restore(lockfile="./Accessibility/renv.lock", prompt=FALSE)'
 
       - name: run main.R
-        run: Rscript --verbose ./Accessibility/main.R
+        run: cd ./Accessibility && Rscript --verbose ./main.R
