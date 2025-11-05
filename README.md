@@ -1,4 +1,4 @@
-# Mapping WASH Accessibility in Rohingya Camps with Remote Sensing and 2SFCA
+# Mapping WASH Accessibility in Rohingya Camps with Remote Sensing
 
 ![](./Accessibility/data/result/Output_road.png)
 
